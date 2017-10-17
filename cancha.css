@@ -1,0 +1,77 @@
+.cancha{
+	background: #8CB27C;
+	width: 500px;
+	height: 300px;
+}
+
+.linea{
+	border: white 3px solid;
+	width: 470px;
+	height: 270px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.arco1{
+	border: white 3px solid;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	left: -3px;
+	top: 100px;
+
+}
+
+.arco2{
+	border: white 3px solid;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	right: -3px;
+	top: 100px;
+}
+
+.circulo {
+     width: 100px;
+     height: 100px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border: white 3px solid;
+     position: absolute;
+     left: 180px;
+     top: 90px;
+}
+
+
+
+
+#circulo1{
+     background-image: url(img/ball_360.png);
+	width: 15px;
+     height: 15px; 
+     position: absolute;
+     left: 40px;
+     top: 103px;
+     background-size: 100%
+}
+
+#circulo2{
+     background-image: url(img/ball_360.png);
+  	width: 15px;
+     height: 15px;
+     position: absolute;
+     left: 230px;
+     top: 30px;
+     background-size: 100%
+}
+
+#circulo3{
+     background-image: url(img/ball_360.png);
+     width: 15px;
+     height: 15px;
+     position: absolute;
+     right: 55px;
+     bottom: 90px;
+     background-size: 100%
+}
